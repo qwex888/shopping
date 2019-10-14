@@ -1,0 +1,24 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "商城",
+				"backgroundColor":"f7f7f7"
+			}
+		}
+	    ,{
+            "path" : "pages/types/types",
+            "style" : {
+				"navigationBarTitleText": "商品分类",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#fff"
+	}
+}
