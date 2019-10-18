@@ -1,0 +1,30 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/types/types",
+    "pages/detail/detail",
+    "pages/users/users",
+    "pages/order/order",
+    "pages/address/address",
+    "pages/myaddr/myaddr",
+    "pages/myorder/myorder",
+    "pages/integral/integral",
+    "pages/qr/qr",
+    "pages/orderItem/orderItem"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#fff",
+    "backgroundColor": "#fff"
+  },
+  "nvueCompiler": "weex",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "shopping",
+  "compilerVersion": "2.2.2",
+  "usingComponents": {}
+}

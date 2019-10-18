@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "确认订单",
+  "backgroundColor": "f7f7f7",
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}

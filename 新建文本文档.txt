@@ -1,0 +1,14 @@
+问题记录：
+
+
+4.用户页下订单分类传值到我的订单页
+
+6.支付接口调通
+
+确认订单页选择地址后返回，地址的index传回underfined
+
+http://192.168.124.10/v1.0/good/order/save/eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJKdUhlaSIsImV4cCI6MTU3MTQwNzUwMywidXNlcklkIjoyOTEyMTY0NDQsImJyYW5kSWQiOjEwMDE5NSwicGhvbmUiOiIxNzYyMDA0MDgwOCJ9.2PKBxIU64xjTeL7EVbcqMiMFCE9MC97A_H1FsEHwiz4zAjQMh37MQ7sq3L3NxixcbfZWAXM1BlKniyXKn7Xc_g
+?goodsId=1002
+&addressId=2019101615253972200
+&number=1
+&paymentMethod=3

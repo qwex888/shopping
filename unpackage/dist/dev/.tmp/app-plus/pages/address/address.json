@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "添加地址",
+  "backgroundColor": "f7f7f7",
+  "usingComponents": {
+    "w-picker": "/components/w-picker/w-picker"
+  }
+}

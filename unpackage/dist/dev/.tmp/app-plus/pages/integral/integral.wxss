@@ -1,0 +1,73 @@
+
+.content{
+	width: 100%;
+}
+.user-header{
+	width: 100%;
+	height: 350rpx;
+	background-color: #fb824f;
+	border-radius: 0 0 40rpx 40rpx;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.my-jf{
+	width: 260rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.jf-num{
+	font-size: 62rpx;
+}
+.jf-tit{
+	font-size: 30rpx;
+}
+.user-order{
+	background-color: #FFFFFF;
+	width: 710rpx;
+	margin: 0 20rpx;
+	height: 900rpx;
+	border-radius: 30rpx;
+	-webkit-transform: translate(0,-80rpx);
+	    -ms-transform: translate(0,-80rpx);
+	        transform: translate(0,-80rpx);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+}
+.no-data{
+	margin-top: 60rpx;
+	font-size: 30rpx;
+	color: #B7B7B7;
+}
+

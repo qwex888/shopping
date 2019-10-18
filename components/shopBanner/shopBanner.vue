@@ -1,20 +1,10 @@
 <template>
 	<view class="banner-box">
-		<view class="user-btn">个人中心</view>
-		<swiper class="baaner" :indicator-dots="true" :autoplay="true" :interval="3000" :circular="true" :duration="1000">
-			<swiper-item>
+		<navigator url="../../pages/users/users" class="user-btn">个人中心</navigator>
+		<swiper class="baaner" :indicator-dots="true" :autoplay="true" :interval="5000" :circular="true" :duration="1000">
+			<swiper-item v-for="(item,index) in banner" :key="index">
 				<view class="swiper-item">
-					<view class="uni-bg-red"></view>
-				</view>
-			</swiper-item>
-			<swiper-item>
-				<view class="swiper-item">
-					<view class="uni-bg-green"></view>
-				</view>
-			</swiper-item>
-			<swiper-item>
-				<view class="swiper-item">
-					<view class="uni-bg-blue"></view>
+					<image class="swiper-item-img" :src="item.imgPic" mode="scaleToFill"></image>
 				</view>
 			</swiper-item>
 		</swiper>
@@ -25,18 +15,31 @@
 	export default {
 		data() {
 			return {
-				
+				banner:[]
 			}
 		},
+		created() {
+			this.getBanner()
+		},
 		methods: {
-			
+			getBanner(){
+				try {
+				    const value = uni.getStorageSync('banner');
+				    if (value) {
+						this.banner = value
+				        console.log(value);
+				    }
+				} catch (e) {
+				    // error
+				}
+			}
 		}
 	}
 </script>
 
 <style>
 	.banner-box{
-		height: 350rpx;
+		width: 100%;
 	}
 	.user-btn{
 		width: 180rpx;
@@ -50,13 +53,17 @@
 		background-color: #fff;
 		color:#f3a57e;
 		font-size: 28rpx;
+		z-index: 99999;
 	}
 	.banner{
-		/* height: 500rpx; */
+		height: 350rpx;
 	}
-	.swiper-item view{
+	.swiper-item{	
+		display: block;
+		line-height: 350upx;
+	}
+	.swiper-item-img{
 		width: 100%;
-		height: 100%;
-		background-color: #007AFF;
+		height: 350upx;
 	}
 </style>

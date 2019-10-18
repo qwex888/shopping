@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+    <head>
+        <meta charset="UTF-8" />
+        <script>
+            var coverSupport = 'CSS' in window && typeof CSS.supports === 'function' && (CSS.supports('top: env(a)') ||
+                CSS.supports('top: constant(a)'))
+            document.write(
+                '<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0' +
+                (coverSupport ? ', viewport-fit=cover' : '') + '" />')
+        </script>
+        <title>View</title>
+        <style>
+            * {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-tap-highlight-color: transparent;
+            }
+
+            input[type="search"i]::-webkit-search-cancel-button {
+                display: none;
+            }
+        </style>
+        <script>
+            var __wxConfig = {"debug":false,"appname":"shopping","entryPagePath":"pages/index/index.html","page":{"pages/index/index.html":{"window":{"navigationBarTitleText":"商城","backgroundColor":"f7f7f7","enablePullDownRefresh":true,"usingComponents":{"shop-banner":"/components/shopBanner/shopBanner"}}},"pages/types/types.html":{"window":{"navigationBarTitleText":"商品分类","backgroundColor":"f7f7f7","enablePullDownRefresh":true,"usingComponents":{}}},"pages/detail/detail.html":{"window":{"navigationBarTitleText":"商品详情","backgroundColor":"f7f7f7","usingComponents":{}}},"pages/users/users.html":{"window":{"navigationBarTitleText":"个人中心","backgroundColor":"f7f7f7","usingComponents":{}}},"pages/order/order.html":{"window":{"navigationBarTitleText":"确认订单","backgroundColor":"f7f7f7","usingComponents":{"uni-popup":"/components/uni-popup/uni-popup","tki-qrcode":"/components/tki-qrcode/tki-qrcode"}}},"pages/address/address.html":{"window":{"navigationBarTitleText":"添加地址","backgroundColor":"f7f7f7","usingComponents":{"w-picker":"/components/w-picker/w-picker"}}},"pages/myaddr/myaddr.html":{"window":{"navigationBarTitleText":"收货地址","backgroundColor":"f7f7f7","usingComponents":{}}},"pages/myorder/myorder.html":{"window":{"navigationBarTitleText":"我的订单","backgroundColor":"f7f7f7","enablePullDownRefresh":true,"usingComponents":{}}},"pages/integral/integral.html":{"window":{"navigationBarTitleText":"我的积分","backgroundColor":"f7f7f7","usingComponents":{}}},"pages/qr/qr.html":{"window":{"navigationBarTitleText":"二维码扫描","backgroundColor":"f7f7f7","usingComponents":{"tki-qrcode":"/components/tki-qrcode/tki-qrcode"}}},"pages/orderItem/orderItem.html":{"window":{"navigationBarTitleText":"订单详情","backgroundColor":"f7f7f7","usingComponents":{}}}},"global":{"window":{"navigationBarTextStyle":"black","navigationBarTitleText":"uni-app","navigationBarBackgroundColor":"#fff","backgroundColor":"#fff"}},"tabBar":{"color":"","selectedColor":"","backgroundColor":"","borderStyle":"black","list":[],"position":"bottom"},"networkTimeout":{"request":60000,"connectSocket":60000,"uploadFile":60000,"downloadFile":60000},"platform":"devtools","pages":["pages/index/index","pages/types/types","pages/detail/detail","pages/users/users","pages/order/order","pages/address/address","pages/myaddr/myaddr","pages/myorder/myorder","pages/integral/integral","pages/qr/qr","pages/orderItem/orderItem"],"nvueCompiler":"weex","renderer":"auto","splashscreen":{"alwaysShowBeforeRender":true,"autoclose":false},"compilerVersion":"2.2.2","usingComponents":{}}
+        </script>
+        <script>
+            var __id__ = '';
+            window.__dispatchGenerateFunc__ = function(page) {
+                __id__ = page;
+                document.title = page;
+                // window.history.pushState('', '', page);
+                var wxss = page.replace('.html', '.wxss')
+                if (
+                    typeof __wxAppCode__ !== 'undefined' &&
+                    __wxAppCode__.hasOwnProperty(wxss)
+                ) {
+                    var setCssToHead = __wxAppCode__[wxss]
+                    typeof setCssToHead === 'function' && setCssToHead()
+                    document.dispatchEvent(new CustomEvent("generateFuncReady", {
+                        detail: {
+                            generateFunc: $gwx(page.replace('.html', '.wxml'))
+                        }
+                    }));
+                } else {
+                    plus.webview.currentWebview().setJsFile('_www/' + page.replace('.html', '.js'));
+                }
+            };
+        </script>
+        <script src="__uniappes6.js"></script>
+        <script src="uniapp://ready"></script>
+    </head>
+
+    <body>
+        <div></div>
+    </body>
+
+</html>

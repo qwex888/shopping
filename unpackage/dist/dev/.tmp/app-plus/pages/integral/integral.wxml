@@ -1,0 +1,1 @@
+<view class="content"><view class="user-header"><view class="my-jf"><view class="jf-num">{{itegral.useNum}}</view><text class="jf-tit">可用积分</text></view><view class="my-jf"><view class="jf-num">{{itegral.stopNum}}</view><text class="jf-tit">冻结积分</text></view></view><view class="user-order"><view class="no-data">没有更多了</view></view></view>

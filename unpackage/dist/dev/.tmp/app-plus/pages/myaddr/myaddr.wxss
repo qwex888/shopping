@@ -1,0 +1,68 @@
+
+.content{
+	width: 100%;
+}
+.addr-box{
+	margin-top: 50rpx;
+}
+.goaddr{
+	margin-top: 30rpx;
+	width: 95%;
+}
+.noaddr{
+	width: 700rpx;
+	height: 780rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.addr-list{
+	margin-top: 30rpx;
+}
+.addr-item{
+	width: 670rpx;
+	padding: 20rpx;
+	margin: 0 20rpx;
+	margin-top: 30rpx;
+	background-color: #FFFFFF;
+	border-radius: 20rpx;
+}
+.shr{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	font-size: 28rpx;
+}
+.addr-area{
+	font-size: 26rpx;
+	color: #808080;
+}
+.moren{
+	margin-top: 30rpx;
+	padding-top: 10rpx;
+	border-top: 1rpx solid #FCEEE8;
+	font-size: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+

@@ -4,13 +4,79 @@
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "商城",
-				"backgroundColor":"f7f7f7"
+				"backgroundColor":"f7f7f7",
+				"enablePullDownRefresh": true
 			}
 		}
 	    ,{
             "path" : "pages/types/types",
             "style" : {
 				"navigationBarTitleText": "商品分类",
+				"backgroundColor":"f7f7f7",
+				 "enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/detail/detail",
+            "style" : {
+				"navigationBarTitleText": "商品详情",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/users/users",
+            "style" : {
+				"navigationBarTitleText": "个人中心",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/order/order",
+            "style" : {
+				"navigationBarTitleText": "确认订单",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" : {
+				"navigationBarTitleText": "添加地址",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/myaddr/myaddr",
+            "style" : {
+				"navigationBarTitleText": "收货地址",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/myorder/myorder",
+            "style" : {
+				"navigationBarTitleText": "我的订单",
+				"backgroundColor":"f7f7f7",
+				 "enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/integral/integral",
+            "style" : {
+				"navigationBarTitleText": "我的积分",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/qr/qr",
+            "style" : {
+				"navigationBarTitleText": "二维码扫描",
+				"backgroundColor":"f7f7f7"
+			}
+        }
+        ,{
+            "path" : "pages/orderItem/orderItem",
+            "style" : {
+				"navigationBarTitleText": "订单详情",
 				"backgroundColor":"f7f7f7"
 			}
         }

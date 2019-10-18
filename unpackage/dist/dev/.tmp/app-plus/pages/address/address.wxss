@@ -1,0 +1,43 @@
+
+.content{
+	width: 100%;
+}
+.form-box{
+	background-color: #FFFFFF;
+}
+.form-name, .form-phone, .form-addr, .form-code, .form-switch, .form-address{
+	padding: 30rpx;
+	border-top: 1rpx solid #F7F7F7;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	font-size: 28rpx;
+}
+.form-name input, .form-phone input, .form-addr input, .form-code input{
+	width: 520rpx;
+}
+.result{
+	width: 400rpx;
+	height: 100%;
+}
+.submit-box{
+	margin-top: 80rpx;
+}
+.form-backbround{
+	background-color: #FFFFFF;
+}
+.submit{
+	width: 600rpx;
+	background-color: #fe6c3e;
+	color: #FFFFFF;
+}
+

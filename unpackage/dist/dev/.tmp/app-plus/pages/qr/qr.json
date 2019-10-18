@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "二维码扫描",
+  "backgroundColor": "f7f7f7",
+  "usingComponents": {
+    "tki-qrcode": "/components/tki-qrcode/tki-qrcode"
+  }
+}
